@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tajawal&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Tajawal,sans-serif;
+}
+
+.footer{
+    color: white;
+    font-family: Tajawal,sans-serif;
+    align-items: center;
+}
+
+.media{
+    color: black;
+    /* padding-left: 100px; */
+    margin: auto;
+}
+
+.top-footer{
+    background-color: #EEF2F6;
+    padding-top: 40px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.mid-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3D4859;
+    color: white;
+}
+
+.bottom{
+    background-color: #1F2D3D;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+ul.list{
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.list li:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+    color: white;
+    background-color: #3D4859 ;
+    /* transition: background-color 0.5s ease-in-out 0.1s; */
+    transition: 0.5s ease-in;
+    
+    transition: 0.5s ease-out;
+}
+
+.head1,.head2,.head3,.head4{
+    padding:20px;
+    border-left: 1px solid #515A69;
+}
+
+#wo{
+    width: 40px;
+    height: 40px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.letter{
+    color: black;
+    padding-top: 60px;
+}
+
+.form{
+    position: relative;
+    right: 165px;
+}
+
+.hi{
+    padding-top: 10px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    /* justify-content: space-around; */
+}
+
+.hello{
+    width: 70%;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.form{
+    font-family: Tajawal,sans-serif;
+}
+
+button{
+    border-radius: 28px;
+    padding: 15px 30px;
+    border: none;
+    box-shadow: 5px 3px lightgray;
+    position: relative;
+    bottom: 55px;
+    left: 275px;
+    height: 58px;
+    background-color: white;
+    font-family: Tajawal,sans-serif;
+    font-weight: bold;
+    color: #3D4859;
+}
+
+h3{
+    padding-bottom: 5px;
+}
+
+.head1{
+    border: none;
+}
+
+li{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.buttoncontent{
+    font-family: Tajawal,sans-serif;
+    font-weight: bold;
+    color: #3D4859;
+
+}
+
+.email{
+    margin-top: 10px;
+    padding: 0 16px;
+    border: none;
+    background: white
+    border-radius 4px;
+    border-bottom: #eff2f7 solid 2px;
+    height: 56px;
+    border-radius: 30px;
+    line-height: 100%;
+    width: 200%;
+    outline: none;
+    font-family: Tajawal,sans-serif;
+    font-size: 16px;
+}
+
+input[type=email]:focus {
+    border-bottom: 2px solid blue ;
+}
+
+.security{
+    color: #7A8498;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.point1,.point2,.point3,.point4{
+    width: 70%;
+}
+
+ul.secure{
+    list-style-type: none;
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+    fill: #7A8498;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+ul.secure{
+    display: flex;
+    flex-direction: row;
+}
+
+.images{
+    width: 60%;
+    margin: auto;
+
+}
+
+ul.images-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+li img{
+    padding: 0px 20px 0px 0px;
+
+}
+
+.logo{
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 40px;
+}
+
+hr{
+    width: 290px;
+    background-color: #7A8498;
+}
+
+.security-in{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 16px;
+}
+.secured,.authentic, .convenient,.fast{
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+}
+
+#letters{
+    font-size: 16px;
+    right: 170px;
+    position: relative;
+}
