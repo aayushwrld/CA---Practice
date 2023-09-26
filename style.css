@@ -44,21 +44,13 @@ body{
 }
 ul.list{
     list-style-type: none;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .list li:hover{
     text-decoration: underline;
 }
 
-button:hover{
-    color: white;
-    background-color: #3D4859 ;
-    /* transition: background-color 0.5s ease-in-out 0.1s; */
-    transition: 0.5s ease-in;
-    
-    transition: 0.5s ease-out;
-}
 
 .head1,.head2,.head3,.head4{
     padding:20px;
@@ -109,8 +101,8 @@ button{
     border: none;
     box-shadow: 5px 3px lightgray;
     position: relative;
-    bottom: 55px;
-    left: 275px;
+    bottom: 60px;
+    left: 265px;
     height: 58px;
     background-color: white;
     font-family: Tajawal,sans-serif;
@@ -152,6 +144,14 @@ li{
     outline: none;
     font-family: Tajawal,sans-serif;
     font-size: 16px;
+    -webkit-transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    color: white;
+    background-color: #3D4859 ;
+    /* transition: background-color 0.5s ease-in-out 0.1s; */
+    -webkit-transition: 0.2s ease-in;
 }
 
 input[type=email]:focus {
@@ -218,7 +218,7 @@ li img{
 
 hr{
     width: 290px;
-    border: 0.px solid#7A8498;
+    border: 0.5px solid#7A8498;
 }
 
 .security-in{
